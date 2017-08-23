@@ -1,4 +1,15 @@
 ---
+#
+# You don't need to edit this file, it's empty on purpose.
+# Edit minima's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+#
+layout: structure
+---
+<h1>PoP-PA</h1>
+<p>O Ponto de Presença no Estado do Pará (PoP-PA) da Rede Nacional de Ensino e Pesquisa (RNP) é o ponto no qual as organizações de ensino e pesquisa paraenses acessam a espinhal doral - o backbone - da rede de computadores nacional provida pela RNP. Através deste acesso, a organizações também ganham acesso ao conjunto de redes que compõem a rede mundial Internet.</p>
+
+---
 title: My page
 layout: default
 ---
