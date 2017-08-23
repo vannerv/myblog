@@ -1,1 +1,29 @@
-name: My Jekyll Website
+title: Ponto de Presença no Estado do Pará da Rede Nacional de Ensino e Pesquisa (PoP-PA/RNP)
+author: vannerv
+email: vannerv@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  O Ponto de Presença no Estado do Pará (PoP-PA) da Rede Nacional de 
+  Ensino e Pesquisa (RNP) é o ponto no qual as organizações de ensino
+  e pesquisa paraenses acessam a espinhal doral - o backbone - da rede
+  de computadores nacional provida pela RNP. Através deste acesso, a 
+  organizações também ganham acesso ao conjunto de redes que compõem a 
+  rede mundial Internet.
+twitter_username: vannerv
+github_username:  vannerv
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%d/%m/%Y"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.html
+
+# Build settings
+markdown: kramdown
+theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock
