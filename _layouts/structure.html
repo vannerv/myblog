@@ -1,22 +1,18 @@
-<!DOCTYPE HTML>
 
-<html>
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Ponto de Presença no Estado do Pará da Rede Nacional de Ensino e Pesquisa (PoP-PA/RNP)</title>
-</head>
+{% include head.html %}
 
 <body>
 
-	<header>
-	 <h1><a href="index.html">PoP-PA<img src=images/rnplogo.png" alt="RNP"></a></h1> 
-	</header>
-	<main>
-	 <h1>PoP-PA</h1>
-	 <p>O Ponto de Presença no Estado do Pará (PoP-PA) da Rede Nacional de Ensino e Pesquisa (RNP) é o ponto no qual as organizações de ensino e pesquisa paraenses acessam a espinhal doral - o backbone - da rede de computadores nacional provida pela RNP. Através deste acesso, a organizações também ganham acesso ao conjunto de redes que compõem a rede mundial Internet.</p>
-	</main>
+{% include header.html %}
 
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+</main>
 	<footer>
 		<p>Copyright 2017 Vanner Vasconcellos</p>
 	</footer>
